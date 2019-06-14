@@ -5,7 +5,7 @@ How to make and use Onion Services
 
 # Why build an Onion Site / use Onion Services?
 
-Onion networking and onion services are probably best considered as an alternative network stack, layered on top of TCP; Onion networking feels like TCP to use - all connections are "stream" connections, connections are made from a client to a server's {address, port} pair, and the way that Tor implements onion services means that onion connections present themself to traditional TCP/IP networking in familiar ways: SOCKS5 outbound for client connections, and inbound TCP connections (via a reverse proxy) for servers.
+Onion networking and onion services are probably best considered as an alternative network stack, layered on top of TCP; Onion networking feels like TCP to use -- all connections are "stream" connections, connections are made from a client to a server's {address, port} pair, and the way that Tor implements onion services means that onion connections present themself to traditional TCP/IP networking in familiar ways: SOCKS5 outbound for client connections, and inbound TCP connections (via a reverse proxy) for servers.
 But what are the benefits?
 
 ## Simplicity of Architecture
